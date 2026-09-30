@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Object</title>
+</head>
+
+<body>
+
+<script>
+    let student = {
+        name: "Rahul",
+        marks: 85
+    };
+
+    console.log("Student Name: " + student.name);
+    console.log("Marks: " + student.marks);
+</script>
+
+</body>
+</html>
