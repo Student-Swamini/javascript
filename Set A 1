@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Preparation</title>
+</head>
+<body>
+
+<script>
+    alert("Exams are near, have you started preparing for?");
+
+    let answer = prompt("Have you started preparing for exams?");
+
+    if (answer !== null && answer.trim() !== "") {
+        let result = confirm("You entered: " + answer + "\nDo you want to continue?");
+        
+        if (result) {
+            alert("Good! Keep preparing for your exams.");
+        } else {
+            alert("Please start preparing soon.");
+        }
+    } else {
+        alert("Please enter your response.");
+    }
+</script>
+
+</body>
+</html>
