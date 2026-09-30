@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Events</title>
+</head>
+
+<body>
+
+<p id="myPara"
+   onmouseover="changeColor()"
+   onmouseout="restoreColor()">
+    Move the mouse over this paragraph.
+</p>
+
+<script>
+    function changeColor() {
+        document.getElementById("myPara").style.backgroundColor = "yellow";
+    }
+
+    function restoreColor() {
+        document.getElementById("myPara").style.backgroundColor = "white";
+    }
+</script>
+
+</body>
+</html>
